@@ -1,0 +1,218 @@
+/***Tag SELECTORS***/
+
+body{
+  font-family: Noto Sans, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  }
+
+a:hover{
+  text-decoration: underline;
+}
+
+ul, li{
+  text-decoration: none;
+  float: left;
+  margin:0 10px;
+
+}
+
+/***Class SELECTORS***/
+.club-body{
+  width:1080px;
+  margin:auto;
+  border-color: black;
+}
+
+.top-head{
+  position: relative;
+	width: 1080px;
+	height: 36px;
+	margin: 0 auto;
+  border-bottom: solid lightpink 5px;
+  overflow:hidden;
+}
+.top-logo{
+  position:absolute;
+  margin-top: 5px;
+  width:auto;
+  float:left;
+}
+
+.logo{
+  display: block;
+}
+
+.my-menu{
+  float:right;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border-color: yellow;
+}
+
+.button-new-posts, .button-my-news,.button-chat,.button-My {
+  display: inline-block;
+  padding-right: 1em;
+  width:auto;
+}
+
+.front-img{
+  height:10em;
+}
+
+.hot-menu{
+  background-color: #f5abc9;
+  color:white;
+  font-weight: 500;
+  height:30px;
+  width:1078px;
+  margin:1px;
+}
+.hot-menu-list-box{
+  display: table;
+}
+
+.hot-menu-list{
+  display: inline-block;
+  list-style: none;
+  font-size: 0.8rem;
+  margin:4px 0 4px 5px;
+  padding-left: 0;
+}
+
+.board-search{
+  float:right;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.search-blank{
+  border: solid 1px lightgrey;
+  border-right: 0;
+  border-right-width: 0;
+  border-right-style: initial;
+  height: 27px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  }
+
+.search-button {
+  color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: 100;
+   padding: 7px;
+   background-color: #F63DBE;
+   text-decoration: none;
+   cursor: pointer;
+   text-align: center;
+   border-style: none;
+}
+
+.container{
+  background-color: white;
+  width:1080px;
+  margin:auto;
+  clear: both;
+}
+
+.left-side, .club-info, .board-list, .board-group1, .board-group2,
+.center, .hot-issues1, .hot-issues2, .hot-issues3, .hot-issues4,
+.right-side, .hot-posts-of-the-week
+{box-sizing: border-box;
+}
+
+.left-side{
+  width:200px;
+  border:solid red;
+  text-align: left;
+  float: left;
+}
+
+.club-info{
+  height: 250px;
+  border: solid green;
+}
+.board-list{
+  height: 650px;
+  border: solid blue;
+}
+
+.board-group1{
+  height: 200px;
+  background-color: grey;
+}
+
+.board-group2{
+  height: 200px;
+  background-color: brown;
+}
+
+.center{
+  width: 680px;
+  border: solid black;
+  float: left;
+}
+.hot-issues1, .hot-issues2, .hot-issues3, .hot-issues4{
+  display: block;
+  float:left;
+  margin: 0.5em;
+}
+.hot-issues1{
+  width:320px;
+  height: 500px;
+  background-color: red;
+}
+
+.hot-issues2{
+  width:320px;
+  height: 500px;
+  background-color: purple;
+}
+
+.hot-issues3{
+  width:320px;
+  height: 500px;
+  background-color: lightgreen;
+}
+
+.hot-issues4{
+  width:320px;
+  height: 500px;
+  background-color: lightblue;
+}
+
+.right-side{
+  width: 200px;
+  border: solid orange;
+  float: left;
+}
+
+.hot-posts-of-the-week{
+  height:200px;
+  background-color: ivory;
+}
+
+.ad-box1{
+  height:200px;
+  background-color: #f3f0d7;
+}
+
+.ad-box2{
+  height:200px;
+  background-color: #e4bad4;
+}
+
+.footer{
+  width: 1080px;
+  height:200px;
+  background-color: gold;
+  clear:both;
+}
+/* id */
