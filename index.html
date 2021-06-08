@@ -37,13 +37,13 @@
       <div class="hot-menu">
         <div class="hot-menu-list-box">
           <ul class="hot-menu-list">
-            <li>
+            <li class="hot-menu-name">
               <a class="all-posts" href="#" target="cafe_main">All Posts</a>
             </li>
-            <li>
+            <li class="hot-menu-name">
               <a class="notice" href="#" title="Notice">Notice</a>
             </li>
-            <li>
+            <li class="hot-menu-name">
               <a class="talk-talk" href="#" title="Talk-Talk">Talk Talk!</a>
             </li>
           </ul>
@@ -59,18 +59,87 @@
       <div class="container">
         <div class="left-side">
           <div class="club-info">
-            <p>Club Info</p>
+            <h4 class="board-group-name">Info</h4>
           </div>
-          <div class="board-list">
-            <div class="board-group1">
-              <p>Notice</p>
-            </div>
-            <div class="board-group2">
-              <p>Q&A</p>
-            </div>
-          </div>
-        </div>
 
+          <div class="board-list-box">
+            <div id="board-group1" class="board-group">
+              <div class="group-title">
+                <h4 id="board-group-name">About</h4>
+              </div>
+              <ul class="board-list">
+                <li class="board-name">
+                  <a href="#">공지사항</a>
+                </li>
+                <li class="board-name">
+                  <a href="#">모임소개</a>
+                </li>
+                <li class="board-name">
+                  <a href="#">이벤트</a>
+                </li>
+              </ul>
+              </div>
+
+            <div id="board-group2" class="board-group">
+              <div class="group-title">
+                <h4 class="board-group-name">하노이 정보 공유</h4>
+              </div>
+                <ul class="board-list">
+                  <li class="board-name">
+                    <a href="#">Province 1</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 2</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 3</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 4</a>
+                  </li>
+                </ul>
+              </div>
+
+            <div id="board-group3" class="board-group">
+              <div class="group-title">
+                <h4 class="board-group-name">Market</h4>
+                <ul class="board-list">
+                  <li class="board-name">
+                    <a href="#">지역 맛집</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 2</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 3</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">Province 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="board-group4" class="board-group">
+              <div class="group-title">
+                <h4 class="board-group-name">Market</h4>
+              </div>
+                <ul class="board-list">
+                  <li class="board-name">
+                    <a href="#">나눔</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">나눔 후기</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">팝니다</a>
+                  </li>
+                  <li class="board-name">
+                    <a href="#">필요해요</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         <div class="center">
           <div class="hot-issues1">
 
@@ -86,17 +155,43 @@
           </div>
         </div>
         <div class="right-side">
-          <div class="hot-posts-of-the-week">
+          <div class="hot-posts-box">
+            <div class="">
+              <h4>Hot Posts</h4>
+            </div>
+            <div class="posts-list">
+              <ul class="post-titles-list">
+                <li class="post-title">아효~ 덥네요 더워~</li>
+                <li class="post-title">오진 같은데 여러분 생각은 어떠신 궁금해요</li>
+              </ul>
+            </div>
           </div>
-          <div class="ad-box1">
+
+          <div class="recent-posts-box">
+            <div class="">
+              <h4>Recent Posts</h4>
+            </div>
+            <div class="posts-list">
+              <ul class="post-titles-list">
+                <li class="post-title">05년생 아이돌이 은퇴를 선언한 이유</li>
+                <li class="post-title">30대 이후 사람이 노화하는 과정</li>
+              </ul>
+            </div>
           </div>
-          <div class="ad-box2">
+
+          <div class="ad-box">
           </div>
 
         </div>
-      </div>
+
 
       <div class="footer">
+        <div class="footer-link-box">
+          <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+          <a class="footer-link" href="https://twitter.com/">Twitter</a>
+          <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        </div>
+        <p class="copyright">© 2021 Jaekyu Kong @ The New Kid In Town.</p>
       </div>
 
     </div>
@@ -105,6 +200,3 @@
 
   </body>
 </html>
-
-git commit  --allow-empty -m "Trigger rebuild"
-git push
