@@ -15,9 +15,12 @@ a:hover{
 
 ul, li{
   text-decoration: none;
-  float: left;
+  list-style: none;
   margin:0 10px;
+}
 
+h4{
+  margin: 0.2em;
 }
 
 /***Class SELECTORS***/
@@ -73,9 +76,6 @@ ul, li{
   width:1078px;
   margin:1px;
 }
-.hot-menu-list-box{
-  display: table;
-}
 
 .hot-menu-list{
   display: inline-block;
@@ -83,6 +83,10 @@ ul, li{
   font-size: 0.8rem;
   margin:4px 0 4px 5px;
   padding-left: 0;
+}
+
+.hot-menu-name{
+  float: left;
 }
 
 .board-search{
@@ -122,48 +126,55 @@ ul, li{
   clear: both;
 }
 
-.left-side, .club-info, .board-list, .board-group1, .board-group2,
+.left-side, .club-info, .board-list-box, .board-group,
 .center, .hot-issues1, .hot-issues2, .hot-issues3, .hot-issues4,
-.right-side, .hot-posts-of-the-week
-{box-sizing: border-box;
+.right-side, .hot-posts-of-the-week{
+  box-sizing: border-box;
+  text-align: left;
 }
 
 .left-side{
   width:200px;
-  border:solid red;
   text-align: left;
   float: left;
+  font-size: 0.875em;
 }
 
 .club-info{
-  height: 250px;
-  border: solid green;
+  height: 150px;
+  border-top: solid 0.2em lightpink;
+  border-bottom: solid 0.2em lightpink;
+
 }
+
 .board-list{
-  height: 650px;
-  border: solid blue;
+  padding: 0;
 }
 
-.board-group1{
-  height: 200px;
-  background-color: grey;
+.board-name{
+  padding-bottom: 2px;
 }
 
-.board-group2{
-  height: 200px;
-  background-color: brown;
+.board-group{
+  border-bottom: solid 0.2em lightpink;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
+.board-group-name{
+  padding-bottom: 2px;
+}
 .center{
   width: 680px;
-  border: solid black;
   float: left;
 }
+
 .hot-issues1, .hot-issues2, .hot-issues3, .hot-issues4{
   display: block;
   float:left;
   margin: 0.5em;
 }
+
 .hot-issues1{
   width:320px;
   height: 500px;
@@ -190,29 +201,55 @@ ul, li{
 
 .right-side{
   width: 200px;
-  border: solid orange;
   float: left;
 }
 
-.hot-posts-of-the-week{
-  height:200px;
-  background-color: ivory;
+.post-titles-list{
+  padding-left: 0;
+  margin: 5px;
+  font-size: 12px;
 }
 
-.ad-box1{
+ .post-title{
+   margin: 3px 0;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   border-bottom:solid lightgrey 0.2px;
+ }
+
+.hot-posts-box{
   height:200px;
-  background-color: #f3f0d7;
 }
 
-.ad-box2{
+.recent-posts-box{
+  height:200px;
+}
+
+.ad-box{
   height:200px;
   background-color: #e4bad4;
 }
 
 .footer{
   width: 1080px;
-  height:200px;
-  background-color: gold;
+  height:80px;
+  border-top: solid 0.2em #e4bad4;
   clear:both;
+  text-align: center;
+}
+
+.footer-link-box{
+  padding: 5px;
+}
+
+.footer-link{
+  margin: 5px;
+  padding-top: 5px;
+  padding-left: 1rem;
+}
+
+.copyright{
+  margin: 5px;
 }
 /* id */
