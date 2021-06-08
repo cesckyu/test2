@@ -30,26 +30,28 @@ h4{
   border-color: black;
 }
 
-.top-head{
+.top-bar{
   position: relative;
 	width: 1080px;
 	height: 36px;
 	margin: 0 auto;
-  border-bottom: solid lightpink 5px;
+  background-color: #4aa96c;
   overflow:hidden;
 }
 .top-logo{
   position:absolute;
-  margin-top: 5px;
+  padding-left: 1em;
   width:auto;
   float:left;
 }
 
 .logo{
   display: block;
+  font-size: 1.5em;
+  color: white;
 }
 
-.my-menu{
+.top-menu{
   float:right;
   text-align: center;
   font-size: 0.8em;
@@ -58,10 +60,11 @@ h4{
   border-color: yellow;
 }
 
-.button-new-posts, .button-my-news,.button-chat,.button-My {
+.top-menu-button {
   display: inline-block;
   padding-right: 1em;
   width:auto;
+  color:white;
 }
 
 .front-img{
@@ -69,7 +72,7 @@ h4{
 }
 
 .hot-menu{
-  background-color: #f5abc9;
+  background-color: #9fe6a0;
   color:white;
   font-weight: 500;
   height:30px;
@@ -112,7 +115,7 @@ h4{
    font-size: 13px;
    font-weight: 100;
    padding: 7px;
-   background-color: #F63DBE;
+   background-color: #9fe6a0;
    text-decoration: none;
    cursor: pointer;
    text-align: center;
@@ -142,8 +145,8 @@ h4{
 
 .club-info{
   height: 150px;
-  border-top: solid 0.2em lightpink;
-  border-bottom: solid 0.2em lightpink;
+  border-top: solid 0.1em lightgrey;
+  border-bottom: solid 0.1em lightgrey;
 
 }
 
@@ -156,9 +159,9 @@ h4{
 }
 
 .board-group{
-  border-bottom: solid 0.2em lightpink;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  border-bottom: solid 0.1em lightgrey;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .board-group-name{
@@ -178,25 +181,25 @@ h4{
 .hot-issues1{
   width:320px;
   height: 500px;
-  background-color: red;
+  border:solid lightgrey 0.1em;
 }
 
 .hot-issues2{
   width:320px;
   height: 500px;
-  background-color: purple;
+  border:solid lightgrey 0.1em;
 }
 
 .hot-issues3{
   width:320px;
   height: 500px;
-  background-color: lightgreen;
+  border:solid lightgrey 0.1em;
 }
 
 .hot-issues4{
   width:320px;
   height: 500px;
-  background-color: lightblue;
+  border:solid lightgrey 0.1em;
 }
 
 .right-side{
@@ -228,13 +231,13 @@ h4{
 
 .ad-box{
   height:200px;
-  background-color: #e4bad4;
+  border:solid lightgrey 0.1em;
 }
 
 .footer{
   width: 1080px;
   height:80px;
-  border-top: solid 0.2em #e4bad4;
+  border-top: solid 0.2em lightgrey;
   clear:both;
   text-align: center;
 }
